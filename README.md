@@ -2,7 +2,7 @@
 
 <img alt="Project Image" title="#ProjectImage" src="./public/image-project.png" >
 
-<p>O aplicativo Nlw é um projeto desenvolvido durante a Next Level Week, um evento da Rocketseat, onde o objetivo é criar uma aplicação de verificação de convidados para eventos.</p>
+<p>A aplicação Nlw é um projeto desenvolvido durante a Next Level Week, um evento da Rocketseat, onde o objetivo é criar uma aplicação de verificação de convidados para eventos.</p>
 
 ## :page_facing_up: Explicação
 
