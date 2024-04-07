@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+<h1 align='center'>NLW - Pass in web</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img alt="Project Image" title="#ProjectImage" src="./public/image-project.png" >
 
-Currently, two official plugins are available:
+<p>O aplicativo Nlw é um projeto desenvolvido durante a Next Level Week, um evento da Rocketseat, onde o objetivo é criar uma aplicação de verificação de convidados para eventos.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## :page_facing_up: Explicação
 
-## Expanding the ESLint configuration
+A função principal do projeto é a listagem de convidados de um evento, tendo filtros por nome ou e-mail do participante.
+Com a utilização de URL states para uma melhor experiência ao usuario
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## :dart: Passos
 
-- Configure the top-level `parserOptions` property like this:
+:heavy_check_mark: Tela de listagem dos participantes;\
+:heavy_check_mark: Criação dos componentes;\
+:heavy_check_mark: Estilização da tela de particpantes;\
+:heavy_check_mark: Listagem com chamada à API;\
+:heavy_check_mark: Criação de funções;\
+:heavy_check_mark: Filtragem por parametros da API;\
+:heavy_check_mark: Utilização de URL states;
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## :rocket: Tecnologias
+
+As seguintes ferramentas foram utilizadas neste projeto:
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [TailwindCSS](https://tailwindcss.com/)
+
+## :closed_book: Requisitos ##
+
+Antes de começar, você precisa ter [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) instalados em seu computador.
+
+## :checkered_flag: Getting Started ##
+
+```bash
+# Clone o projeto
+$ git clone https://github.com/joaoviictorss/NLW-pass-in-web
+
+# Accesso
+$ cd NLW-pass-in-web
+
+# Instalando dependencias
+$ npm install
+
+# É necessário a execução da APi criada na trilha de node do NLW - Unite para o funcionamento correto da aplicação
+# link do repositorio da API - https://github.com/rocketseat-education/nlw-unite-nodejs
+
+# Rodando o projeto
+$ npm run start
+
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
